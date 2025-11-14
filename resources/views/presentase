@@ -1,0 +1,68 @@
+# 🧩 PROJECT DASHBOARD SISTEM MANAJEMEN SEKOLAH
+# Dibuat untuk mengelola data sekolah seperti akun, artikel, guru, staf, dan siswa.
+# Tersedia dua role pengguna: Super Admin (SA) dan User Biasa (UB).
+
+=====================================================================
+# 🧑‍💼 1. TAMPILAN SUPER ADMIN (SA)
+=====================================================================
+
+▶ Dashboard
+Menampilkan ringkasan data utama sistem:
+- Total Akun: jumlah semua akun terdaftar
+- Total Teacher & Staff: total pegawai dan guru aktif
+- Total Article: total artikel yang telah dibuat
+Halaman ini menjadi pusat informasi utama aktivitas sistem.
+
+▶ Kotak Saran
+- Menampilkan seluruh masukan dari pengguna (guru/staf/siswa).
+- Admin dapat meninjau, menandai, atau menghapus saran.
+
+▶ Users
+- Menampilkan daftar akun user yang terdaftar.
+- Bisa menambah, mengedit, atau mengatur role pengguna.
+- Fitur keamanan berbasis role agar data tetap aman.
+
+▶ CMS (Content Management System)
+1. Articles  -> Mengelola artikel berita sekolah (tambah, edit, hapus).
+2. Homepage  -> Mengatur tampilan beranda website seperti banner & teks sambutan.
+
+▶ Data Master
+Berisi data penting sekolah:
+- Staff    : Data pegawai non-guru.
+- Teachers : Data guru lengkap (nama, jabatan, foto).
+- Siswa    : Masih dalam tahap pengembangan (akan menampilkan data siswa).
+
+=====================================================================
+# 👥 2. TAMPILAN USER ARTIKEL (uk) 
+=====================================================================
+
+## ▶ Dashboard
+# Menampilkan informasi umum sistem (total akun, total artikel, dsb).
+
+## ▶ Articles
+# - User hanya bisa melihat daftar artikel.
+# - Tidak memiliki akses untuk menghapus atau mengedit artikel.
+
+## ▶ Akses Terbatas
+# Menu seperti "Users", "Homepage", dan sebagian "Data Master"
+# tidak ditampilkan demi menjaga keamanan sistem.
+
+=====================================================================
+# 🚀 3. MANFAAT DAN KEGUNAAN PROJECT
+=====================================================================
+
+Mempermudah pengelolaan data sekolah secara terpusat.
+Memisahkan hak akses antara Super Admin dan User (lebih aman).
+Tampil modern dengan mode gelap dan responsif di semua perangkat.
+Memberikan data ringkasan penting secara real-time.
+Fleksibel untuk pengembangan fitur lanjutan seperti data siswa & absensi.
+
+=====================================================================
+# ✅ KESIMPULAN
+=====================================================================
+
+# Dengan adanya dashboard ini, proses manajemen data sekolah menjadi:
+# → Lebih efisien
+# → Lebih aman
+# → Lebih terorganisir
+# Mendukung digitalisasi administrasi sekolah secara modern dan profesional.

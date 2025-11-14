@@ -1,0 +1,33 @@
+  * {
+      scroll-behavior: smooth;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+  }
+
+  body::-webkit-scrollbar {
+      display: none;
+  }
+
+  /* ===== end ===== */
+
+  /* ====== header sidebar mobile ===== */
+  .sidebar {
+      transition: 0.3s;
+  }
+
+  #sidebar.active {
+      transform: translateX(0);
+  }
+
+  /* ===== end ===== */
+
+  /* ====== section eskul ====== */
+  .card {
+      transform: scale(1.1);
+  }
+  
+  
+
+  
